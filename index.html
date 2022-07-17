@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Back&Forth FC</title>
+    <link rel="shortcut icon" href="./img/vector.png">
     <!--enlaces google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src=""></a>
+            <a class="navbar-brand" href="./index.html"><img src="./img/vector.png"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +45,7 @@
         </div>
     </nav>
     <main>
-        <header id="encabezado">BACK&FORTH FC</header>
+        <header id="encabezado">Back&Forth FC</header>
         <h2 id="tituloPrimario">Bienvenido a la nostalgia futbolera</h2>
         <h3 id="tituloSecundario">Aquí vas a encontrarte con esas camisetas que te llenan de recuerdos.</h3>
         <div>
@@ -53,6 +54,23 @@
                 <li id="entradas">Camisetas</li>
                 <li id="entradas">Pelotas</li>
             </ol>
+
+            <div class="form">
+                <div class="form-floating mb-3">
+                    <label for="floatingNombre">Nombre</label>
+                    <input type="nombre" class="form-control" id="floatingNombre" placeholder="Nombre">
+                </div>
+                <div class="form-floating">
+                    <label for="floatingEmail">E-mail</label>
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+                </div>
+                <div class="form-floating">
+                    <label for="floatingDireccion">Dirección</label>
+                    <input type="direccion" class="form-control" id="floatingDireccion" placeholder="Dirección">
+                </div>
+                <button class="boton" id="enviar">Enviar</button>
+            </div>
+            
             <!--DIV para modif con DOM-->
             <div id="agradecimiento"></div>
             <!--bootstrap y js-->

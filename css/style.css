@@ -3,7 +3,16 @@
     margin: 0;
     font-family: "Oswald", sans-serif;;
 }
-
+.navbar-brand {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.navbar-brand img {
+    width: 8rem;
+    height: 8rem;
+}
 header{
     background-image: url(../img/PELOTA30.jpg);
     background-attachment: fixed;
@@ -28,6 +37,7 @@ nav ul{
     font-size: 26px;
     font-style: none;
     color: black;
+    margin: 2rem;
 }
 
 #agradecimiento{
