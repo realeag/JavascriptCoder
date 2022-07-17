@@ -25,8 +25,9 @@ nav ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    font-size: 20px;
-    font-style: oblique;
+    font-size: 26px;
+    font-style: none;
+    color: black;
 }
 
 #agradecimiento{
