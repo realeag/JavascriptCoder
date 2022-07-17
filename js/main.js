@@ -49,4 +49,17 @@ const productos = [
     imagen:"./img/pelotaAzteca86.jpg", cat: 2, precio: 3999},
 ];
 
+function loadProdLocal() {
+    return JSON.parse(localStorage.getItem("productos")) || [];
+}
+
+function saveProdLocal(productos) {
+    localStorage.setItem("productos", JSON.stringify(productos));
+}
+
+function searchProd(id) {
+    let productos = loadProdLocal();
+    return productos.find(x => x.id ==id);
+}
+
 
