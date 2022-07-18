@@ -46,33 +46,33 @@
     </nav>
     <main>
         <header id="encabezado">Back&Forth FC</header>
-        <h2 id="tituloPrimario">Bienvenido a la nostalgia futbolera</h2>
-        <h3 id="tituloSecundario">Aquí vas a encontrarte con esas camisetas que te llenan de recuerdos.</h3>
-        <div>
-            <h3>Adquirí tus Back&Forth FC aquí:</h3>
-            <ol id="entradasLista">
-                <li id="entradas">Camisetas</li>
-                <li id="entradas">Pelotas</li>
-            </ol>
-
-            <div class="form">
-                <div class="form-floating mb-3">
-                    <label for="floatingNombre">Nombre</label>
-                    <input type="nombre" class="form-control" id="floatingNombre" placeholder="Nombre">
-                </div>
-                <div class="form-floating">
-                    <label for="floatingEmail">E-mail</label>
-                    <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
-                </div>
-                <div class="form-floating">
-                    <label for="floatingDireccion">Dirección</label>
-                    <input type="direccion" class="form-control" id="floatingDireccion" placeholder="Dirección">
-                </div>
-                <button class="boton" id="enviar">Enviar</button>
+        <div class="bienvenida">
+            <h2 class="titPrimario" id="tituloPrimario">Bienvenido a la nostalgia futbolera</h2>
+            <div class="adquiri">
+                <h3>Adquirí tus Back&Forth FC aquí:</h3>
+                <ol class="entradasLista" id="entradasLista">
+                    <li id="entradas">Camisetas</li>
+                    <li id="entradas">Pelotas</li>
+                </ol>
             </div>
-            
-            <!--DIV para modif con DOM-->
-            <div id="agradecimiento"></div>
+            <!--formulario sin submit-->
+            <section class="customer" id="customer">
+                <div class="form">
+                    <div class="form-floating mb-3">
+                        <label for="floatingNombre">Nombre</label>
+                        <input type="text" class="form-control nombre" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-floating">
+                        <label for="floatingEmail">E-mail</label>
+                        <input type="text" class="form-control email" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-floating">
+                        <label for="floatingDireccion">Dirección</label>
+                        <input type="text" class="form-control direccion" id="direccion" placeholder="Dirección">
+                    </div>
+                    <button class="boton" id="enviar">Enviar</button>
+                </div>
+            </section>
             <!--bootstrap y js-->
         </div>
     </main>
